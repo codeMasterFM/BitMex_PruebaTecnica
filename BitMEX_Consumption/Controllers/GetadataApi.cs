@@ -7,10 +7,10 @@ namespace BitMEX_Consumption.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class HomeController : ControllerBase
+    public class GetadataApi : ControllerBase
     {
         private readonly IServiceinstrument _iinstrument;
-        public HomeController(IServiceinstrument iinstrument) {
+        public GetadataApi(IServiceinstrument iinstrument) {
         _iinstrument = iinstrument;
         }
         // GET: api/<HomeController>
